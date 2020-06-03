@@ -9,82 +9,82 @@ body {
   background: url('assets/Lake%20-%20Imgur.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: cursive;
-  background
 }
 main {
-  max-width: 700px;
-  margin:auto;
+  max-width: 900px;
+  margin: auto;
   text-align: center;
   box-shadow: 30px 0px 40px rgba(0,0,0,0.4),
     -30px 0px 40px rgba(0,0,0,0.3);
 }
 /*header*/
 header {
+  margin-top: 1rem;
+  background: hsla(0, 0%, 30%, .1);
   font-size: 4rem;
 }
 #adam {
   color:aqua;
   font-size: 5rem;
 }
-/*bio*/
-img {
-  max-width: 100%;
+img{
+  width: 100%;
 }
+/*bio*/
 #image {
-  margin: 5rem;
-  position: relative;
-  top: 8rem;
-  width: 50%;
+  margin-top: 9rem;
+  margin-left: 10px;
+  float: left;
+  width: 20%;
   border: 2px solid black;
-  box-shadow: 30px 0px 40px rgba(255,250,250,0.9);
-  opacity: 0.7;
+  box-shadow: 2px 50px 50px rgba(255,250,250,0.7);
+  opacity: 0.6;
+  transition:  width 1s, opacity 2s;
   border-radius: 3px;
+}
+#image:hover {
+  opacity: 1;
+  width: 22%;
 }
 section {
   color: white;
-   background-color: hsla(0, 0%, 30%, .1);
-  margin-top: 7.5rem;
+  background-color: hsla(0, 0%, 30%, .1)
 }
-#midsec{
-}
-#bio {  
-  max-height: 100vh;
-  position: relative;
-  max-width: 50%;
-  background:
+#bio {
+  display: inline-block;
+  width: 74%;
+  margin: 1%;
 }
 h2 {
-  text-align: left;
-  margin-left: 2.8rem;
+  padding-right: 10.1rem;
   color: aqua;
   font-size: 3.5rem;
+  margin: 10px;
 }
 section p {
-  position: relative;
-  left: 21rem;
-  bottom: 15.9rem;
+  font-size: 1.1rem;
+  text-align: left;
   line-height: 1.5rem;
 }
-
-/*footer*/
-footer p {
-  position: relative;
-  bottom: 10rem;
-  text-align: left;
-  margin-left: 2.8rem;
-  width: 40%;
-  color: aqua;
-  font-size: 3.5rem;
+/* ikonok*/
+#social {
+  border:
+  padding: 20px;
 }
 li {
-  position: relative;
-  bottom: 17rem;
-  left: 10rem;
-  color: white;
-  margin: 10px;
-  padding: 10px;
-  display: inline;
+  margin: 20px;
+  display: inline-block;
+  width: 20%;
 }
 a {
-  color: aqua
+  color: white;
+}
+.socialicon:hover{
+  color: blue;
+}
+/*footer*/
+footer {
+  margin-top: 5rem;
+  background: rgba(0,0,0,0.3);
+  color: white;
 }
